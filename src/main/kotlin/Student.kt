@@ -1,8 +1,6 @@
-class Student {
-    var name: String = ""
-    var surname: String = ""
+class Student(val name: String, val surname: String) {
 
     fun printStudent(){
-        print("Imię: ${name} Nazwisko: ${surname}")
+        println("Imię: ${name} Nazwisko: ${surname}")
     }
 }
