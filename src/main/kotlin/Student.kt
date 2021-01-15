@@ -1,4 +1,4 @@
-class Student(var imie:String, var nazwisko: String){
+class Student(val imie:String, val nazwisko: String){
 
     var id = 23322
 
