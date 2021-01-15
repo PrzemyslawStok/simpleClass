@@ -18,6 +18,7 @@ class Student(val imie:String, val nazwisko: String){
         println("Imię: ${this.imie}")
         println("Nazwisko: ${this.nazwisko}")
         println("Id: ${this.id}")
+        println("Adress: ${this.adres}")
     }
 
     fun wygenerujId(){
