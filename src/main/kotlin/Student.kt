@@ -8,4 +8,8 @@ class Student{
         this.nazwisko = nazwisko
     }
 
+    fun info(){
+        println("Imię: ${this.imie}")
+    }
+
 }
