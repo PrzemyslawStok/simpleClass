@@ -3,8 +3,9 @@ class Student{
     var nazwisko = ""
     var id = "23322"
 
-    constructor(imie: String){
+    constructor(imie: String, nazwisko: String){
         this.imie = imie
+        this.nazwisko = nazwisko
     }
 
 }

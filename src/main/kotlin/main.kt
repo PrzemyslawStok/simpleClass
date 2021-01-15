@@ -1,6 +1,6 @@
 fun main() {
-    val przemyslaw = Student("Przemysław")
-    val piotr = Student("Piotr")
+    val przemyslaw = Student("Przemysław","Stokłosa")
+    val piotr = Student("Piotr","Stokłosa")
 
     println(przemyslaw)
     println(przemyslaw.toString())
