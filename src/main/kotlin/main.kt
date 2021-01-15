@@ -7,12 +7,11 @@ fun main() {
     val listaStudentow = mutableListOf(Student("Przemysław","Stokłosa"))
 
     for(i in 1..100) {
-        listaStudentow.add(Student("Piotr", "Stokłosa", Random.nextInt(1000,1100)))
+        listaStudentow.add(Student("Piotr", "Stokłosa", -1))
     }
 
     for(student in listaStudentow){
         student.info()
     }
-
 
 }
