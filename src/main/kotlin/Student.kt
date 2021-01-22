@@ -26,11 +26,11 @@ class Student(val imie:String, val nazwisko: String){
     }
 
     fun wygenerujAdres(){
-        val a = 0
-        val b = 0
+        val a = Random.nextInt(1,1000)
+        val b = Random.nextInt(1,100)
 
         if(this.adres.isEmpty()){
-            this.adres = "Bielsko-Biała ${a}/${b}"
+            this.adres = "Bielsko-Biała ul. 3 Maja ${a}/${b}"
         }
     }
 
