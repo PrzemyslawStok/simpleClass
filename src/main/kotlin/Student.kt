@@ -26,8 +26,11 @@ class Student(val imie:String, val nazwisko: String){
     }
 
     fun wygenerujAdres(){
+        val a = 0
+        val b = 0
+
         if(this.adres.isEmpty()){
-            this.adres = "Bielsko-Biała"
+            this.adres = "Bielsko-Biała ${a}/${b}"
         }
     }
 
